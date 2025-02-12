@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "10441000000007078",
+      "name": "protfolio",
+      "domain": {
+        "id": "50022855958",
+        "name": "protfolio-60033803531.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60033803531",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
