@@ -851,6 +851,11 @@ html, body {
   padding: 100px 0;
 }
 
+.section-certificates {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+
 .certificate-item {
   margin-top: 20px;
   padding: 20px;
@@ -858,18 +863,48 @@ html, body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
-.certificate-item img {
-  max-width: 100%;
+.certificate-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.certificate-img {
+  width: 250px;  /* Medium size */
   height: auto;
   border-radius: 5px;
 }
 
-.certificate-item p {
-  font-size: 16px;
-  margin-top: 10px;
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 80vh;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: white;
+  font-size: 35px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 

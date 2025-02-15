@@ -49,6 +49,20 @@ $(function () {
         });
     };
 
+// Open modal function
+function openModal(imageSrc) {
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImg");
+    
+    modal.style.display = "block";
+    modalImg.src = imageSrc;
+}
+
+// Close modal function
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+
 
 // Progress bar 
     var $section = $('.section-skills');
@@ -86,6 +100,7 @@ $(function () {
             threshold: 50
         });
     }
+
 
 // Slick.js   
     $('.review-carousel').slick({

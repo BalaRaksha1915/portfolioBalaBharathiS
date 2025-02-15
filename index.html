@@ -205,34 +205,40 @@
             </div>
         </section><!-- /.section-about -->
         <!-- End About section -->
-         <!-- Certificates Section -->
+<!-- Certificates Section -->
 <section class="site-section section-certificates text-center" id="certificates">
     <div class="container">
         <h2>CERTIFICATES</h2>
         <p class="section-subtitle"><span>My Achievements & Certifications</span></p>
-        
+
         <div class="row">
             <div class="col-md-4">
                 <div class="certificate-item">
-                    <img src="assets/img/CERTIFICATEJAVA.jpg" alt="Certificate 1" class="img-res">
-                    <p>JAVA</p>
+                    <img src="assets/img/CERTIFICATEJAVA.jpg" alt="Certificate 1" class="certificate-img" onclick="openModal('assets/img/certificate1_large.jpg')">
+                    <p>Java & JEE </p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="certificate-item">
-                    <img src="assets/img/CERTIFICATEWEB.jpg" alt="Certificate 2" class="img-res">
-                    <p>WEB Development</p>
+                    <img src="assets/img/CERTIFICATEWEB.jpg" alt="Certificate 2" class="certificate-img" onclick="openModal('assets/img/certificate2_large.jpg')">
+                    <p>Web Development</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="certificate-item">
-                    <img src="assets/img/CERTIFICATESQL.jpg" alt="Certificate 3" class="img-res">
-                    <p>SQL programming</p>
+                    <img src="assets/img/CERTIFICATESQL.jpg" alt="Certificate 3" class="certificate-img" onclick="openModal('assets/img/certificate3_large.jpg')">
+                    <p>SQL Certification</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Image Modal -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
 
         <!-- Skills section -->
         <section class="site-section section-skills">
