@@ -846,6 +846,32 @@ html, body {
     margin-top: 20px;
   }
 }
+.section-certificates {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+
+.certificate-item {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.certificate-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.certificate-item p {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 
 /* Section: Skills */
 .section-skills {
